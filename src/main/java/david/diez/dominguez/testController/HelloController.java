@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-	@CrossOrigin(origins = "http://david-diez-dominguez.azurewebsites.net/")
+	@CrossOrigin(origins = "https://daviddiezdominguez.azurewebsites.net/")
 	@GetMapping("/")
 	public String sayHello() {
 		return "local-back-front-test";
